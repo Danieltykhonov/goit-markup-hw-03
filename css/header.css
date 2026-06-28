@@ -1,0 +1,72 @@
+
+.header {
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+  color: #2E2F42;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+.logo-accent {
+    color: #4D5AE5;
+}
+
+.footer-logo {
+color: #F4F4FD;
+}
+
+.header-nav {
+
+}
+
+.header-nav-list {
+}
+
+.header-nav-item {
+}
+
+.header-link {
+width: 48px;
+height: 24px;
+font-weight: 500;
+line-height: 24px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.header-link:hover{
+color: #404BBF;
+}
+.header-link:focus {
+color: #404BBF;
+}
+
+
+.header-address {
+  color: #434455;
+}
+.header-address-list {
+}
+.header-address-item {
+}
+.address-mail:hover {
+color: #404BBF;
+}
+
+.address-mail:focus {
+color: #404BBF;
+}
+
+
+.address-tel:hover {
+color: #404BBF;
+}
+
+.address-tel:focus {
+color: #404BBF;
+}

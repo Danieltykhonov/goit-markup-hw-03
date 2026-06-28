@@ -1,0 +1,50 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+  color: #2E2F42;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+}
+.logo-accent {
+    color: #4D5AE5;
+}
+
+.footer-logo {
+color: #F4F4FD;
+}
