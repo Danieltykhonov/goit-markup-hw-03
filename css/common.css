@@ -1,4 +1,13 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
 body {
+   margin: 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -7,10 +16,18 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  max-width: 1128px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 h1,
 h2,
 h3 {
   font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 button {
@@ -25,6 +42,9 @@ a {
 
 ul,
 ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style: none;
 }
 
@@ -38,7 +58,7 @@ img {
   font-weight: 700;
   letter-spacing: 0.03em;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.33;
   text-transform: uppercase;
 }
 .logo-accent {
@@ -48,3 +68,20 @@ img {
 .footer-logo {
 color: #F4F4FD;
 }
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(50%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+

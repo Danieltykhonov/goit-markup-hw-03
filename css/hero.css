@@ -1,9 +1,23 @@
 
-.hero {
-background-color: #2E2F42;
+.hero {  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+  height: 600px;
+  background-color: #2E2F42;
+}
+
+.hero .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-titel {
+margin-bottom: 48px;
+
 font-size: 56px;
 line-height: 1.07;
 text-align: center;
@@ -12,19 +26,25 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 .hero-btn {
+    min-width: 169px;
+    min-height: 56px;
+
+   border-radius: 4px;
+   padding-block: 16px;
+   padding-inline: 32px;
+
     font-weight: 500;
+    font-size: 16px;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4d5ae5;
+    border: none ;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.hero-btn:hover{
+.hero-btn:hover:focus{
 color: #FFFFFF;
 background-color: #404BBF;
 }
 
-.hero-btn:focus{
-color: #FFFFFF;
-background-color: #404BBF;
-}
 
