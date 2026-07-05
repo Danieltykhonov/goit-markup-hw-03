@@ -1,11 +1,8 @@
 
 .hero {  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  
-  height: 600px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+
   background-color: #2E2F42;
 }
 
@@ -16,15 +13,16 @@
 }
 
 .hero-titel {
-margin-bottom: 48px;
+  max-width: 496px;
+  margin-bottom: 48px;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}  
 
-font-size: 56px;
-line-height: 1.07;
-text-align: center;
-letter-spacing: 0.02em;
 
-color: #FFFFFF;
-}
 .hero-btn {
     min-width: 169px;
     min-height: 56px;
@@ -42,7 +40,7 @@ color: #FFFFFF;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.hero-btn:hover:focus{
+.hero-btn:hover, .hero-btn:focus{
 color: #FFFFFF;
 background-color: #404BBF;
 }
